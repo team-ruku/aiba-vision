@@ -1,0 +1,1 @@
+python test_simple.py --image_path "/Users/antonio/Desktop/python project opt/monodepth2/test_image.png" --model_name mono_640x192 --ext png
