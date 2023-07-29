@@ -1,1 +1,4 @@
-python test_simple.py --image_path "/Users/antonio/Desktop/python project opt/monodepth2/test_image.png" --model_name mono_640x192 --ext png
+python depthrgb.py --image_path "/Users/antonio/Desktop/python project opt/monodepth2/test_image.png" --model_name mono_640x192 --ext png
+python depthrgb.py --image_path "/Users/antonio/Desktop/python project opt/aiba-vision/IMG_2615.MOV" --model_name mono_640x192 --ext png
+python depthvideograce.py --video_path "/Users/antonio/Desktop/python project opt/aiba-vision/IMG_2615.MOV" --model_name mono_640x192
+python depthvideograce.py --video_path "/Users/antonio/Desktop/python project opt/aiba-vision/test1.mp4" --model_name mono_640x192
